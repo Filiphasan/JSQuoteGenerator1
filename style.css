@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.title{
+    font-family:Open Sans;
+    font-size: 4em;
+    text-align: center;
+    color:#78C0A8;
+}
+.otro-blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:150px auto 0 auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+.otro-blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+.otro-blockquote::after{
+  content: '';
+}
+
+.otro-blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+.btns{
+  width:60%;
+  margin:50px auto 0 auto;
+}
+.btn{
+  text-decoration:none;
+  cursor: pointer;
+  padding:10px 20px;
+  border-radius:8px;
+  background-color:white;
+  font-size:1.4em;
+  transition: all .5s;
+}
+.btn-next{
+  border:solid 2px #78C0A8;
+  color:#78C0A8;
+}
+.btn-next:hover{
+  color:white;
+  background-color:#78C0A8;
+}
+.btn-tweet{
+  float:right;
+  color:#4C6EF5;
+  border:solid 2px #4C6EF5;
+}
+.btn-tweet:hover{
+  color:white;
+  background-color:#4C6EF5;
+}
